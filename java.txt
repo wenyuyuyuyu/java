@@ -1,0 +1,216 @@
+package cc;
+
+import java.awt.Frame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+
+
+public class wy {
+	JPanel y;
+	JButton an,bn,cn,dn,en,fn,gn,nn,qn,wn;
+	public void wyy() {
+		int c=0;
+		int x=(int)(10*Math.random()); 
+		JFrame Text1=new JFrame("猜数游戏！！");
+		Text1.setBounds(60,100,108,188);
+		Text1.setSize(600,600);
+		y=new JPanel();
+		Text1.add(y);
+		Text1.setLocationRelativeTo(null);
+		Text1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Text1.setVisible(true);
+		
+		an=new JButton("0");
+		bn=new JButton("1");
+		cn=new JButton("2");
+		dn=new JButton("3");
+		en=new JButton("4");
+		fn=new JButton("5");
+		gn=new JButton("6");
+		nn=new JButton("7");
+		qn=new JButton("8");
+		wn=new JButton("9");
+		an.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==0) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=0) {
+				if(x<0)
+				JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+				else if(x>0) {
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+				}
+			}
+			}
+		});
+		bn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==1) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=1) {
+				if(x<1)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>1) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		cn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==2) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=2) {
+				if(x<2)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>2) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		dn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==3) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			return;
+			}
+			else if(x!=3) {
+				if(x<3)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>3) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		en.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==4) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=4) {
+				if(x<4)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>4) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		fn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==5) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=5) {
+				if(x<5)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>5) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		gn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==6) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=6) {
+				if(x<6)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>6) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		nn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==7) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=7) {
+				if(x<7)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>7) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}			}
+			}
+		});
+		qn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==8) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=8) {
+				if(x<8)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>8) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		wn.addActionListener( new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			System.out.println(x);
+			if(x==9) {
+			JOptionPane.showMessageDialog(null, "猜对了！！");
+			System.exit(0);
+			}
+			else if(x!=9) {
+				if(x<9)
+					JOptionPane.showMessageDialog(null, "猜错了=.= 太大咯");
+					else if(x>9) {
+						JOptionPane.showMessageDialog(null, "猜错了=.= 太小咯");
+					}
+			}
+			}
+		});
+		y.add(an);
+		y.add(bn);
+		y.add(cn);
+		y.add(dn);
+		y.add(en);
+		y.add(fn);
+		y.add(gn);
+		y.add(nn);
+		y.add(qn);
+		y.add(wn);
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		wy u=new wy();
+		u.wyy();
+		} 
+			}
